@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="Reportname" value="NRDAPIO_test_Report"/>
+<listeners>
+	<!-- 	<listener class-name="GenericLibrary.ExtentReport"/>
+		<listener class-name="GenericLibrary.AnnotationTransformer"/> -->
+	</listeners>
+  <test name="Test">
+     <classes>
+   <!-- 
+     <class name="NRDA_RTI.NRDA_RTICitizenWithBPL">
+      <methods>
+      <include name="NRDA_RTI_SC_04_TC_16"></include>
+      </methods>
+      </class> 
+  -->
+   <!--    <class name="NRDA_RTI.NRDA_RTILoginAsmanager">
+      <methods>
+      <include name="NRDA_RTI_SC_09_TC_20"/>
+      </methods>
+      </class>
+     -->
+      <class name="NRDA_RTI.NRDA_RTILoginAsEE">
+    <methods>
+      <include name="WithoutTC_NRDA_RTI_SC_09_TC_08"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

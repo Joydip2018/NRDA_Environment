@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="Reportname" value="NRDA_RTICitizenWithout_BPL"/>
+<listeners>
+		<listener class-name="GenericLibrary.ExtentReport"/>
+		<listener class-name="GenericLibrary.AnnotationTransformer"/>
+	</listeners>
+  <test name="Test">
+    <classes>
+      <class name="NRDA_RTI.NRDA_RTICitizenWithout_BPL">
+      <methods>
+      <exclude name="NRDA_RTI_SC_06_TC_01"></exclude>   
+      <exclude name="NRDA_RTI_SC_06_TC_02"></exclude>   
+      <exclude name="NRDA_RTI_SC_06_TC_03"></exclude>   
+      <exclude name="NRDA_RTI_SC_07_TC_01"></exclude>   
+      <exclude name="NRDA_RTI_SC_07_TC_02"></exclude>   
+      <exclude name="NRDA_RTI_SC_07_TC_03"></exclude>   
+      <exclude name="NRDA_RTI_SC_08_TC_01"></exclude>   
+      <exclude name="NRDA_RTI_SC_08_TC_02"></exclude>   
+      <exclude name="NRDA_RTI_SC_08_TC_03"></exclude> 
+      <exclude name="NRDA_RTI_SC_08_TC_08"></exclude>   
+      <exclude name="NRDA_RTI_SC_08_TC_09"></exclude>   
+      <exclude name="NRDA_RTI_SC_08_TC_10"></exclude>   
+      <exclude name="NRDA_RTI_SC_08_TC_11"></exclude>     
+      <exclude name="NRDA_RTI_SC_08_TC_12"></exclude>  
+      <exclude name="NRDA_RTI_SC_08_TC_13"></exclude>  
+  
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

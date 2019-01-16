@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="30" total="31" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Email ID:a@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Password:Vijay@123]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://.\NRDA_PROJECT\Success_ScreenShot\NRDA_RTI_SC_01_TC_01 Dec 04   10.23.05.png" alt=""/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28960" started-at="2018-12-04T04:52:36Z" finished-at="2018-12-04T04:53:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28960" started-at="2018-12-04T04:52:36Z" finished-at="2018-12-04T04:53:05Z">
+      <class name="NRDA_RTI.NRDA_RTICitizenWithout_BPL">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:NRDA_RTI.NRDA_RTICitizenWithout_BPL@6a4f787b]" name="setup" is-config="true" duration-ms="9" started-at="2018-12-04T10:22:36Z" finished-at="2018-12-04T10:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NRDA_RTICitizenWithout_BPL2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:NRDA_RTI.NRDA_RTICitizenWithout_BPL@6a4f787b]" name="openBrowser" is-config="true" duration-ms="10357" started-at="2018-12-04T10:22:37Z" finished-at="2018-12-04T10:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="NRDA_RTI_SC_01_TC_01(java.lang.String, java.lang.String)[pri:1, instance:NRDA_RTI.NRDA_RTICitizenWithout_BPL@6a4f787b]" name="NRDA_RTI_SC_01_TC_01" duration-ms="16985" started-at="2018-12-04T10:22:47Z" description="VerifytheLoginAsCitizen_SC_01_TC_01" data-provider="citizen" finished-at="2018-12-04T10:23:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijay@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Email ID:a@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Password:Vijay@123]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://.\NRDA_PROJECT\Success_ScreenShot\NRDA_RTI_SC_01_TC_01 Dec 04   10.23.05.png" alt=""/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NRDA_RTI_SC_01_TC_01 -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:NRDA_RTI.NRDA_RTICitizenWithout_BPL@6a4f787b]" name="Closebrowser" is-config="true" duration-ms="160" started-at="2018-12-04T10:23:05Z" finished-at="2018-12-04T10:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- NRDA_RTI.NRDA_RTICitizenWithout_BPL -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

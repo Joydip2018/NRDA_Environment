@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="Reportname" value="NRDA_RTICitizenWithout_BPL2"/>
+  <listeners>
+    <listener class-name="GenericLibrary.ExtentReport"/>
+    <listener class-name="GenericLibrary.AnnotationTransformer"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="NRDA_RTI.NRDA_RTICitizenWithout_BPL">
+        <methods>
+          <include name="NRDA_RTI_SC_08_TC_09"/>
+          <include name="NRDA_RTI_SC_06_TC_02" invocation-numbers="0"/>
+          <include name="NRDA_RTI_SC_07_TC_01"/>
+          <include name="NRDA_RTI_SC_08_TC_02"/>
+          <include name="NRDA_RTI_SC_08_TC_13"/>
+          <include name="NRDA_RTI_SC_08_TC_08"/>
+          <include name="NRDA_RTI_SC_08_TC_03"/>
+          <include name="NRDA_RTI_SC_08_TC_01"/>
+          <include name="NRDA_RTI_SC_08_TC_12"/>
+          <include name="NRDA_RTI_SC_08_TC_10"/>
+          <include name="Closebrowser"/>
+          <include name="NRDA_RTI_SC_07_TC_03"/>
+          <include name="NRDA_RTI_SC_08_TC_11"/>
+          <include name="NRDA_RTI_SC_07_TC_02"/>
+          <include name="NRDA_RTI_SC_06_TC_03"/>
+          <include name="setup"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- NRDA_RTI.NRDA_RTICitizenWithout_BPL -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
